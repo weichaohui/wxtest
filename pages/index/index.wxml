@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class='main-container'>
+  <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+  <view class='out'>
+    <text class='outText'>{{relationOut}}</text>
+  </view>
+
+  <view class='input-panel'>
+    <view class='key-tone-tables'>
+      <view class='key-tone' wx:for='{{keyTones}}' data-key='{{item}}' bindtap='keyToneTap'>{{item}}</view>
+    </view>
+    <view class='operate'>
+      <view class='key-tone back' data-key='back' bindtap='keyToneTap'>回退</view>
+      <view class='key-tone add' data-key='+' bindtap='keyToneTap'>的</view>
+      <view class='key-tone enter' data-key='=' bindtap='keyToneTap'>叫</view>
+    </view>
+  </view>
+</view>

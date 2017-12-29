@@ -1,0 +1,42 @@
+/**index.wxss**/
+
+.main-container {
+  margin: 15rpx;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  border-radius: 50%;
+}
+
+.input-panel {
+  width: 100%;
+  display: flex;
+  margin-top: 40rpx;
+}
+
+.out {
+  height: 300rpx;
+  width: 100%;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.key-tone-tables {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 540rpx;
+}
+
+.key-tone {
+  width: 180rpx;
+  text-align: center;
+  padding: 20rpx 0 20rpx 0;
+}
+
+.operate {
+  width: 180rpx;
+}
